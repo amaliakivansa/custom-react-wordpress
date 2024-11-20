@@ -1,0 +1,43 @@
+@import 'variables.scss';
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+}
+
+.navbar-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $primaryColor;
+  text-decoration: none;
+}
+
+.navbar-right .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right .nav-links li {
+  margin-right: 1rem;
+}
+
+.navbar-right .nav-links a {
+  color: $secondaryColor;
+  text-decoration: none;
+  font-size: 1rem;
+  &:hover {
+    color: $primaryColor;
+  }
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
